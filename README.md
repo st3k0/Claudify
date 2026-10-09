@@ -33,7 +33,19 @@ Claudify is a small, native menu bar app that shows the same numbers as the `/us
 - [Claude Code](https://docs.claude.com/en/docs/claude-code/setup), logged in with a Claude subscription (Pro, Max, Team, or Enterprise)
 - Xcode 26 or later (to build from source)
 
-## 🚀 Getting started
+## ⬇️ Download
+
+1. Grab **`Claudify-x.y.dmg`** from the [latest release](https://github.com/st3k0/Claudify/releases/latest).
+2. Open it and drag **Claudify** into **Applications**.
+3. Claudify isn't notarized yet, so the first time you open it, macOS will block it. Go to **System Settings → Privacy & Security** and click **Open Anyway**. Or run this command:
+
+   ```bash
+   xattr -dr com.apple.quarantine /Applications/Claudify.app
+   ```
+
+Each release is a universal build that runs natively on both Apple Silicon and Intel Macs.
+
+## 🚀 Building from source
 
 ```bash
 git clone https://github.com/st3k0/Claudify.git
