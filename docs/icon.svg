@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E8896A"/>
+      <stop offset="1" stop-color="#B9573A"/>
+    </linearGradient>
+    <linearGradient id="gloss" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.22"/>
+      <stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#bg)"/>
+  <rect x="100" y="100" width="824" height="824" rx="185" fill="url(#gloss)"/>
+  <path d="M335.22 706.78 A250 250 0 1 1 688.78 706.78" fill="none" stroke="#FFF8F2" stroke-opacity="0.28" stroke-width="64" stroke-linecap="round"/>
+  <path d="M335.22 706.78 A250 250 0 1 1 714.25 383.05" fill="none" stroke="#FFF8F2" stroke-width="64" stroke-linecap="round"/>
+  <path d="M512 380 Q538 504 662 530 Q538 556 512 680 Q486 556 362 530 Q486 504 512 380 Z" fill="#FFF8F2" stroke="#FFF8F2" stroke-width="14" stroke-linejoin="round"/>
+</svg>

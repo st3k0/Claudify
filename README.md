@@ -19,7 +19,7 @@ Claudify is a small, native menu bar app that shows the same numbers as the `/us
 
 ## ✨ Features
 
-- **Live percentage in the menu bar**: your current session usage sits next to the Claude logo.
+- **Live percentage in the menu bar**: your current session usage sits next to the Claudify gauge icon.
 - **Session and weekly limits**: progress bars for the 5-hour and 7-day windows, colored green, orange, or red as you get closer to the limit.
 - **Reset countdowns**: shows when each window resets (`2h 14m`, `3d 6h`, …) and updates every second.
 - **Plan badge**: shows which Claude plan you're on (Pro, Max 5x, Max 20x, Team, …).
@@ -85,7 +85,7 @@ Issues and pull requests are welcome! For larger changes, please open an issue f
 
 ## ⚠️ Disclaimer
 
-Claudify is an independent, community project. It is **not affiliated with, endorsed by, or sponsored by Anthropic**. "Claude" and the Claude logo are trademarks of Anthropic, PBC. The usage endpoint Claudify uses is undocumented and could change at any time.
+Claudify is an independent, community project. It is **not affiliated with, endorsed by, or sponsored by Anthropic**. "Claude" is a trademark of Anthropic, PBC. The Claudify icon is an original design (source: [`docs/icon.svg`](docs/icon.svg), regenerate with [`docs/generate_icon.py`](docs/generate_icon.py)). The usage endpoint Claudify uses is undocumented and could change at any time.
 
 ## 📄 License
 

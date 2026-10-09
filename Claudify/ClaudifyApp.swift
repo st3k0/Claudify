@@ -28,7 +28,7 @@ struct MenuBarLabel: View {
 
     var body: some View {
         HStack(spacing: 4) {
-            Image("ClaudeLogo")
+            Image("ClaudifyLogo")
             if let session = monitor.session {
                 Text("\(Int(session.percent.rounded()))%")
             }

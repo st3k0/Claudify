@@ -46,7 +46,7 @@ struct ContentView: View {
 
     private var header: some View {
         HStack(spacing: 8) {
-            Image("ClaudeLogo")
+            Image("ClaudifyLogo")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 18, height: 18)
